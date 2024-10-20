@@ -2,20 +2,27 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-19T23:16:57 CEST" name="Suite" finished-at="2024-10-19T23:17:04 CEST" duration-ms="7499">
+  <suite started-at="2024-10-20T20:21:46 CEST" name="Master Suite" finished-at="2024-10-20T20:21:55 CEST" duration-ms="8958">
     <groups>
+      <group name="Master">
+        <method signature="TC003AddCart.VerifyCart()[pri:0, instance:TestCase.TC003AddCart@14cd1699]" name="VerifyCart" class="TestCase.TC003AddCart"/>
+      </group> <!-- Master -->
     </groups>
-    <test started-at="2024-10-19T23:16:57 CEST" name="Test" finished-at="2024-10-19T23:17:04 CEST" duration-ms="7499">
+    <test started-at="2024-10-20T20:21:46 CEST" name="Test" finished-at="2024-10-20T20:21:55 CEST" duration-ms="8958">
       <class name="TestCase.TC003AddCart">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.TC003AddCart@235834f2]" started-at="2024-10-19T23:16:57 CEST" name="setup" finished-at="2024-10-19T23:16:59 CEST" duration-ms="2909" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.TC003AddCart@14cd1699]" started-at="2024-10-20T20:21:46 CEST" name="setup" finished-at="2024-10-20T20:21:50 CEST" duration-ms="3637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyCart()[pri:0, instance:TestCase.TC003AddCart@235834f2]" started-at="2024-10-19T23:17:00 CEST" name="VerifyCart" finished-at="2024-10-19T23:17:04 CEST" duration-ms="4530" status="PASS">
+        <test-method signature="VerifyCart()[pri:0, instance:TestCase.TC003AddCart@14cd1699]" started-at="2024-10-20T20:21:50 CEST" name="VerifyCart" finished-at="2024-10-20T20:21:54 CEST" duration-ms="4481" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCart -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TC003AddCart@14cd1699]" started-at="2024-10-20T20:21:54 CEST" name="close" finished-at="2024-10-20T20:21:55 CEST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
       </class> <!-- TestCase.TC003AddCart -->
     </test> <!-- Test -->
-  </suite> <!-- Suite -->
+  </suite> <!-- Master Suite -->
 </testng-results>

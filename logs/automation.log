@@ -1,0 +1,47 @@
+2024-10-20 11:14:50,712 [main] INFO  TestCase.TC001SignIn - *********Start SignIn process************
+2024-10-20 11:14:51,240 [main] INFO  TestCase.TC001SignIn - ******verify Home page********
+2024-10-20 11:32:51,794 [main] INFO  TestCase.TC001SignIn - *********Start SignIn process************
+2024-10-20 11:32:52,272 [main] INFO  TestCase.TC001SignIn - ******verify Home page********
+2024-10-20 11:54:34,214 [main] INFO  TestCase.TC001SignIn - *********Start SignIn process************
+2024-10-20 11:54:34,686 [main] INFO  TestCase.TC001SignIn - ******verify Home page********
+2024-10-20 11:54:34,768 [main] INFO  TestCase.TC001SignIn - TC001 SignIN test completed
+2024-10-20 11:57:13,464 [main] INFO  TestCase.TC001SignIn - *********Start SignIn process************
+2024-10-20 11:57:13,938 [main] INFO  TestCase.TC001SignIn - ******verify Home page********
+2024-10-20 11:57:14,003 [main] INFO  TestCase.TC001SignIn - TC001 SignIN test completed
+2024-10-20 12:09:51,903 [main] INFO  TestCase.TC002SignOut - SignOut process starts**************
+2024-10-20 12:13:14,695 [main] INFO  TestCase.TC002SignOut - SignOut process starts**************
+2024-10-20 12:15:05,851 [main] INFO  TestCase.TC002SignOut - SignOut process starts**************
+2024-10-20 12:15:09,631 [main] INFO  TestCase.TC002SignOut - TC002 SignOut Test completed*************
+2024-10-20 12:28:05,486 [main] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-20 12:28:10,001 [main] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-20 18:06:01,385 [main] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-20 18:06:07,066 [main] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-20 18:17:42,578 [main] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-20 18:17:50,563 [main] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-20 18:24:01,065 [main] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-20 18:24:07,402 [main] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-20 18:34:24,801 [main] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-20 18:34:29,392 [main] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-20 18:39:58,857 [main] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-20 18:40:03,488 [main] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-20 18:56:46,107 [main] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-20 18:56:50,617 [main] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-20 18:59:46,998 [main] INFO  TestCase.TC001SignIn - *********Start SignIn process************
+2024-10-20 18:59:47,497 [main] INFO  TestCase.TC001SignIn - ******verify Home page********
+2024-10-20 18:59:47,576 [main] INFO  TestCase.TC001SignIn - TC001 SignIN test completed
+2024-10-20 19:07:13,622 [main] INFO  TestCase.TC001SignIn - *********Start SignIn process************
+2024-10-20 19:07:14,106 [main] INFO  TestCase.TC001SignIn - ******verify Home page********
+2024-10-20 19:07:14,178 [main] INFO  TestCase.TC001SignIn - TC001 SignIN test completed
+2024-10-20 19:10:38,019 [main] INFO  TestCase.TC001SignIn - *********Start SignIn process************
+2024-10-20 19:10:38,489 [main] INFO  TestCase.TC001SignIn - ******verify Home page********
+2024-10-20 19:10:38,562 [main] INFO  TestCase.TC001SignIn - TC001 SignIN test completed
+2024-10-20 19:13:21,015 [main] INFO  TestCase.TC001SignIn - *********Start SignIn process************
+2024-10-20 19:13:21,515 [main] INFO  TestCase.TC001SignIn - ******verify Home page********
+2024-10-20 19:13:21,591 [main] INFO  TestCase.TC001SignIn - TC001 SignIN test completed
+2024-10-20 19:53:27,849 [main] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-20 19:53:32,373 [main] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-20 20:14:42,353 [main] INFO  TestBase.BaseClass - *********Start SignIn process************
+2024-10-20 20:14:42,844 [main] INFO  TestBase.BaseClass - ******verify Home page********
+2024-10-20 20:14:42,912 [main] INFO  TestBase.BaseClass - TC001 SignIN test completed
+2024-10-20 20:21:50,410 [main] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-20 20:21:54,864 [main] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************

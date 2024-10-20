@@ -1,5 +1,6 @@
 package TestCase;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import PageObject.CheckOutPage;
@@ -11,9 +12,11 @@ import TestBase.BaseClass;
 
 public class TC003AddCart extends BaseClass{
 	
-	@Test()
+	@Test(groups= "Master")
 	public void VerifyCart() throws InterruptedException
 	{
+		logger.info("Add 2 cart process starts**************");
+		
 		SignInPage sp = new SignInPage(driver);
 		sp.setUsername(p.getProperty("username"));
 		sp.setPassword(p.getProperty("password"));
@@ -37,7 +40,18 @@ public class TC003AddCart extends BaseClass{
 		
 		String title3 = hp.confHome();
 		System.out.println(title3);
+		if(title3.equals("Products"))
+		{
+			Assert.assertTrue(true);
+		}
+		else
+		{
+			Assert.assertTrue(false);
+			logger.debug("Debug log*********");
+			logger.error("Test Failed********");
+		}
 		
+		logger.info("TC003 AddCart Test completed*************");
 	}
 	
 	

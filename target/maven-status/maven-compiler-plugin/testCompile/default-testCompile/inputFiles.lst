@@ -1,4 +1,13 @@
 C:\Users\Hp\eclipse-newWorkspace\Project005SwapLab\src\test\java\PageObject\BasePage.java
+C:\Users\Hp\eclipse-newWorkspace\Project005SwapLab\src\test\java\PageObject\CheckOutPage.java
+C:\Users\Hp\eclipse-newWorkspace\Project005SwapLab\src\test\java\PageObject\EndPage.java
 C:\Users\Hp\eclipse-newWorkspace\Project005SwapLab\src\test\java\PageObject\HomePage.java
+C:\Users\Hp\eclipse-newWorkspace\Project005SwapLab\src\test\java\PageObject\PayPage.java
+C:\Users\Hp\eclipse-newWorkspace\Project005SwapLab\src\test\java\PageObject\SignInPage.java
 C:\Users\Hp\eclipse-newWorkspace\Project005SwapLab\src\test\java\TestBase\BaseClass.java
 C:\Users\Hp\eclipse-newWorkspace\Project005SwapLab\src\test\java\TestCase\TC001SignIn.java
+C:\Users\Hp\eclipse-newWorkspace\Project005SwapLab\src\test\java\TestCase\TC002SignOut.java
+C:\Users\Hp\eclipse-newWorkspace\Project005SwapLab\src\test\java\TestCase\TC003AddCart.java
+C:\Users\Hp\eclipse-newWorkspace\Project005SwapLab\src\test\java\Utilities\DataProviders.java
+C:\Users\Hp\eclipse-newWorkspace\Project005SwapLab\src\test\java\Utilities\ExcelUtility.java
+C:\Users\Hp\eclipse-newWorkspace\Project005SwapLab\src\test\java\Utilities\ExtentReportManager.java
