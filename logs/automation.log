@@ -45,3 +45,35 @@
 2024-10-20 20:14:42,912 [main] INFO  TestBase.BaseClass - TC001 SignIN test completed
 2024-10-20 20:21:50,410 [main] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
 2024-10-20 20:21:54,864 [main] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-21 10:40:04,079 [main] INFO  TestCase.TC002SignOut - *********Start Sign out process************
+2024-10-21 10:40:07,835 [main] INFO  TestCase.TC002SignOut - TC002 Signout Test completed sucessfully*********
+2024-10-21 10:41:07,450 [main] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-21 10:41:11,907 [main] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-21 10:44:33,229 [main] INFO  TestCase.TC001SignIn - *********Start SignIn process************
+2024-10-21 10:44:33,790 [main] INFO  TestCase.TC001SignIn - ******verify Home page********
+2024-10-21 10:44:33,862 [main] INFO  TestCase.TC001SignIn - TC001 SignIN test completed
+2024-10-21 11:02:44,392 [main] INFO  TestCase.TC001SignIn - *********Start SignIn process************
+2024-10-21 11:02:44,861 [main] INFO  TestCase.TC001SignIn - ******verify Home page********
+2024-10-21 11:02:44,912 [main] INFO  TestCase.TC001SignIn - TC001 SignIN test completed
+2024-10-21 11:19:09,287 [main] INFO  TestCase.TC002SignOut - *********Start Sign out process************
+2024-10-21 11:19:13,129 [main] INFO  TestCase.TC002SignOut - TC002 Signout Test completed sucessfully*********
+2024-10-21 11:21:34,988 [main] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-21 11:21:39,452 [main] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-21 11:35:40,292 [TestNG-tests-2] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-21 11:35:40,680 [TestNG-tests-3] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-21 11:35:40,773 [TestNG-tests-1] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-21 11:35:45,442 [TestNG-tests-2] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-21 11:35:46,421 [TestNG-tests-3] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-21 11:35:46,510 [TestNG-tests-1] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-21 11:37:55,854 [TestNG-tests-2] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-21 11:37:56,285 [TestNG-tests-3] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-21 11:37:56,329 [TestNG-tests-1] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-21 11:38:01,090 [TestNG-tests-2] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-21 11:38:01,832 [TestNG-tests-3] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-21 11:38:02,481 [TestNG-tests-1] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-21 12:07:51,139 [TestNG-tests-1] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-21 12:07:56,292 [TestNG-tests-3] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-21 12:07:58,855 [TestNG-tests-2] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-21 12:08:00,379 [TestNG-tests-1] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-21 12:08:02,389 [TestNG-tests-3] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-21 12:08:04,936 [TestNG-tests-2] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************

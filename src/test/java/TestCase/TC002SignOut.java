@@ -29,9 +29,8 @@ public void logOut() throws InterruptedException
 	}
 	else
 	{
-		Assert.assertTrue(false);
-		logger.debug("Debug logs.....");
-		logger.error("Test failed************");
+		logger.error("Test failed.....");
+		Assert.fail("logo not matching ************");
 	}
 
 	mp.setLogout();

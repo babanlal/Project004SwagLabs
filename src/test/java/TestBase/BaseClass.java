@@ -14,8 +14,13 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+
+
 
 
 public class BaseClass {
@@ -24,9 +29,9 @@ public class BaseClass {
 	public Properties p;
 	public Logger logger;
 
-	
-	@BeforeTest(groups= {"Sanity","Regression","Master"})
-	public void setup() throws IOException
+	@Parameters({"os","browser"})
+	@BeforeClass(groups= {"Sanity","Regression","Master"})
+	public void setup(String os, String br) throws IOException
 	{
 		logger = LogManager.getLogger(this.getClass());
 		
@@ -34,15 +39,23 @@ public class BaseClass {
 		p = new Properties();
 		p.load(file);
 		
-	System.getProperty("webdriver.chrome.driver", "E:\\selenium\\New chromedriver\\chromedriver-win64\\chromedriver.exe");
-	driver=new ChromeDriver();
+	switch(br.toLowerCase())
+	{
+	case "chrome": driver=new ChromeDriver(); break;
+	case "edge" : driver = new EdgeDriver();break;
+	case "firefox": driver = new FirefoxDriver(); break;
+	default: System.out.println("Invalid Browser"); return;
+	}
+		
+		System.getProperty("webdriver.chrome.driver", "E:\\selenium\\New chromedriver\\chromedriver-win64\\chromedriver.exe");
+	
 	driver.get(p.getProperty("url"));    //("https://www.saucedemo.com/");
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	driver.manage().window().maximize();
 	driver.manage().deleteAllCookies();
 	}
 	
-	@AfterTest(groups= {"Sanity","Regression","Master"})
+	@AfterClass(groups= {"Sanity","Regression","Master"})
 	public void close()
 	{
 		driver.close();
@@ -65,5 +78,3 @@ public class BaseClass {
 
 
 }
-
-
