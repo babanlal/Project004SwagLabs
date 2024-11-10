@@ -2,7 +2,7 @@
 <testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-21T12:07:43 CEST" name="Suite" finished-at="2024-10-21T12:08:06 CEST" duration-ms="22261">
+  <suite started-at="2024-11-06T17:44:06 CET" name="Suite" finished-at="2024-11-06T17:44:27 CET" duration-ms="21716">
     <groups>
       <group name="Master">
         <method signature="TC003AddCart.VerifyCart()[pri:0, instance:TestCase.TC003AddCart@3754a4bf]" name="VerifyCart" class="TestCase.TC003AddCart"/>
@@ -10,9 +10,9 @@
         <method signature="TC003AddCart.VerifyCart()[pri:0, instance:TestCase.TC003AddCart@9d5509a]" name="VerifyCart" class="TestCase.TC003AddCart"/>
       </group> <!-- Master -->
     </groups>
-    <test started-at="2024-10-21T12:07:43 CEST" name="chromeTest" finished-at="2024-10-21T12:08:00 CEST" duration-ms="16707">
+    <test started-at="2024-11-06T17:44:06 CET" name="chromeTest" finished-at="2024-11-06T17:44:20 CET" duration-ms="14463">
       <class name="TestCase.TC003AddCart">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC003AddCart@3754a4bf]" started-at="2024-10-21T12:07:44 CEST" name="setup" finished-at="2024-10-21T12:07:51 CEST" duration-ms="6713" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC003AddCart@3754a4bf]" started-at="2024-11-06T17:44:06 CET" name="setup" finished-at="2024-11-06T17:44:11 CET" duration-ms="4942" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,19 +28,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyCart()[pri:0, instance:TestCase.TC003AddCart@3754a4bf]" started-at="2024-10-21T12:07:51 CEST" name="VerifyCart" finished-at="2024-10-21T12:08:00 CEST" duration-ms="9286" status="PASS">
+        <test-method signature="VerifyCart()[pri:0, instance:TestCase.TC003AddCart@3754a4bf]" started-at="2024-11-06T17:44:11 CET" name="VerifyCart" finished-at="2024-11-06T17:44:20 CET" duration-ms="8871" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCart -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TC003AddCart@3754a4bf]" started-at="2024-10-21T12:08:00 CEST" name="close" finished-at="2024-10-21T12:08:00 CEST" duration-ms="255" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TC003AddCart@3754a4bf]" started-at="2024-11-06T17:44:20 CET" name="close" finished-at="2024-11-06T17:44:20 CET" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- TestCase.TC003AddCart -->
     </test> <!-- chromeTest -->
-    <test started-at="2024-10-21T12:07:43 CEST" name="edgeTest" finished-at="2024-10-21T12:08:03 CEST" duration-ms="19139">
+    <test started-at="2024-11-06T17:44:06 CET" name="edgeTest" finished-at="2024-11-06T17:44:22 CET" duration-ms="16077">
       <class name="TestCase.TC003AddCart">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC003AddCart@9d5509a]" started-at="2024-10-21T12:07:44 CEST" name="setup" finished-at="2024-10-21T12:07:56 CEST" duration-ms="11590" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC003AddCart@9d5509a]" started-at="2024-11-06T17:44:06 CET" name="setup" finished-at="2024-11-06T17:44:15 CET" duration-ms="9559" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,19 +56,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyCart()[pri:0, instance:TestCase.TC003AddCart@9d5509a]" started-at="2024-10-21T12:07:56 CEST" name="VerifyCart" finished-at="2024-10-21T12:08:02 CEST" duration-ms="6101" status="PASS">
+        <test-method signature="VerifyCart()[pri:0, instance:TestCase.TC003AddCart@9d5509a]" started-at="2024-11-06T17:44:15 CET" name="VerifyCart" finished-at="2024-11-06T17:44:21 CET" duration-ms="5655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCart -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TC003AddCart@9d5509a]" started-at="2024-10-21T12:08:02 CEST" name="close" finished-at="2024-10-21T12:08:03 CEST" duration-ms="715" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TC003AddCart@9d5509a]" started-at="2024-11-06T17:44:21 CET" name="close" finished-at="2024-11-06T17:44:22 CET" duration-ms="595" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- TestCase.TC003AddCart -->
     </test> <!-- edgeTest -->
-    <test started-at="2024-10-21T12:07:43 CEST" name="firefoxTest" finished-at="2024-10-21T12:08:06 CEST" duration-ms="22261">
+    <test started-at="2024-11-06T17:44:06 CET" name="firefoxTest" finished-at="2024-11-06T17:44:27 CET" duration-ms="21716">
       <class name="TestCase.TC003AddCart">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC003AddCart@f5958c9]" started-at="2024-10-21T12:07:44 CEST" name="setup" finished-at="2024-10-21T12:07:58 CEST" duration-ms="14496" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC003AddCart@f5958c9]" started-at="2024-11-06T17:44:06 CET" name="setup" finished-at="2024-11-06T17:44:17 CET" duration-ms="11271" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,11 +84,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyCart()[pri:0, instance:TestCase.TC003AddCart@f5958c9]" started-at="2024-10-21T12:07:58 CEST" name="VerifyCart" finished-at="2024-10-21T12:08:04 CEST" duration-ms="6083" status="PASS">
+        <test-method signature="VerifyCart()[pri:0, instance:TestCase.TC003AddCart@f5958c9]" started-at="2024-11-06T17:44:17 CET" name="VerifyCart" finished-at="2024-11-06T17:44:25 CET" duration-ms="7264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCart -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TC003AddCart@f5958c9]" started-at="2024-10-21T12:08:04 CEST" name="close" finished-at="2024-10-21T12:08:06 CEST" duration-ms="1291" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TC003AddCart@f5958c9]" started-at="2024-11-06T17:44:25 CET" name="close" finished-at="2024-11-06T17:44:27 CET" duration-ms="2725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

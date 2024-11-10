@@ -3,10 +3,10 @@
 <suite name="Master Suite">
 	<groups>
 		<run>
-			<!-- <include name="Sanity"/> -->
+				<!-- <include name="Sanity"/> -->
 				<!-- <include name="Regression"/> -->
-						<include name="Master"/> 
-			<!-- <exclude name=""/> -->
+					<include name="Master"/> 
+				<!-- <exclude name=""/> -->
 		</run>
 	</groups>
 	<listeners>

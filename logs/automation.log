@@ -77,3 +77,13 @@
 2024-10-21 12:08:00,379 [TestNG-tests-1] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
 2024-10-21 12:08:02,389 [TestNG-tests-3] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
 2024-10-21 12:08:04,936 [TestNG-tests-2] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-10-31 14:23:09,501 [main] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-10-31 14:23:15,454 [main] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-11-06 17:43:40,007 [main] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-11-06 17:43:44,483 [main] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-11-06 17:44:11,511 [TestNG-tests-1] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-11-06 17:44:15,915 [TestNG-tests-3] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-11-06 17:44:17,811 [TestNG-tests-2] INFO  TestCase.TC003AddCart - Add 2 cart process starts**************
+2024-11-06 17:44:20,365 [TestNG-tests-1] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-11-06 17:44:21,567 [TestNG-tests-3] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
+2024-11-06 17:44:25,074 [TestNG-tests-2] INFO  TestCase.TC003AddCart - TC003 AddCart Test completed*************
