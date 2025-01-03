@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-06T17:44:06 CET" name="Suite" finished-at="2024-11-06T17:44:27 CET" duration-ms="21716">
+  <suite started-at="2025-01-03T18:46:54 IST" name="Master Suite" finished-at="2025-01-03T18:47:05 IST" duration-ms="10887">
     <groups>
       <group name="Master">
-        <method signature="TC003AddCart.VerifyCart()[pri:0, instance:TestCase.TC003AddCart@3754a4bf]" name="VerifyCart" class="TestCase.TC003AddCart"/>
-        <method signature="TC003AddCart.VerifyCart()[pri:0, instance:TestCase.TC003AddCart@f5958c9]" name="VerifyCart" class="TestCase.TC003AddCart"/>
-        <method signature="TC003AddCart.VerifyCart()[pri:0, instance:TestCase.TC003AddCart@9d5509a]" name="VerifyCart" class="TestCase.TC003AddCart"/>
+        <method signature="TC003AddCart.VerifyCart()[pri:0, instance:TestCase.TC003AddCart@7b98f307]" name="VerifyCart" class="TestCase.TC003AddCart"/>
       </group> <!-- Master -->
     </groups>
-    <test started-at="2024-11-06T17:44:06 CET" name="chromeTest" finished-at="2024-11-06T17:44:20 CET" duration-ms="14463">
+    <test started-at="2025-01-03T18:46:54 IST" name="Test" finished-at="2025-01-03T18:47:05 IST" duration-ms="10887">
       <class name="TestCase.TC003AddCart">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC003AddCart@3754a4bf]" started-at="2024-11-06T17:44:06 CET" name="setup" finished-at="2024-11-06T17:44:11 CET" duration-ms="4942" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC003AddCart@7b98f307]" started-at="2025-01-03T18:46:54 IST" name="setup" finished-at="2025-01-03T18:47:00 IST" duration-ms="5296" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,71 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyCart()[pri:0, instance:TestCase.TC003AddCart@3754a4bf]" started-at="2024-11-06T17:44:11 CET" name="VerifyCart" finished-at="2024-11-06T17:44:20 CET" duration-ms="8871" status="PASS">
+        <test-method signature="VerifyCart()[pri:0, instance:TestCase.TC003AddCart@7b98f307]" started-at="2025-01-03T18:47:00 IST" name="VerifyCart" finished-at="2025-01-03T18:47:04 IST" duration-ms="4927" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCart -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TC003AddCart@3754a4bf]" started-at="2024-11-06T17:44:20 CET" name="close" finished-at="2024-11-06T17:44:20 CET" duration-ms="160" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TC003AddCart@7b98f307]" started-at="2025-01-03T18:47:04 IST" name="close" finished-at="2025-01-03T18:47:05 IST" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- TestCase.TC003AddCart -->
-    </test> <!-- chromeTest -->
-    <test started-at="2024-11-06T17:44:06 CET" name="edgeTest" finished-at="2024-11-06T17:44:22 CET" duration-ms="16077">
-      <class name="TestCase.TC003AddCart">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC003AddCart@9d5509a]" started-at="2024-11-06T17:44:06 CET" name="setup" finished-at="2024-11-06T17:44:15 CET" duration-ms="9559" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyCart()[pri:0, instance:TestCase.TC003AddCart@9d5509a]" started-at="2024-11-06T17:44:15 CET" name="VerifyCart" finished-at="2024-11-06T17:44:21 CET" duration-ms="5655" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyCart -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TC003AddCart@9d5509a]" started-at="2024-11-06T17:44:21 CET" name="close" finished-at="2024-11-06T17:44:22 CET" duration-ms="595" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- TestCase.TC003AddCart -->
-    </test> <!-- edgeTest -->
-    <test started-at="2024-11-06T17:44:06 CET" name="firefoxTest" finished-at="2024-11-06T17:44:27 CET" duration-ms="21716">
-      <class name="TestCase.TC003AddCart">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC003AddCart@f5958c9]" started-at="2024-11-06T17:44:06 CET" name="setup" finished-at="2024-11-06T17:44:17 CET" duration-ms="11271" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyCart()[pri:0, instance:TestCase.TC003AddCart@f5958c9]" started-at="2024-11-06T17:44:17 CET" name="VerifyCart" finished-at="2024-11-06T17:44:25 CET" duration-ms="7264" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyCart -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.TC003AddCart@f5958c9]" started-at="2024-11-06T17:44:25 CET" name="close" finished-at="2024-11-06T17:44:27 CET" duration-ms="2725" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- TestCase.TC003AddCart -->
-    </test> <!-- firefoxTest -->
-  </suite> <!-- Suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
 </testng-results>
